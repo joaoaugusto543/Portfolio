@@ -258,20 +258,21 @@
 
 }
 
+
 @media (max-width:790px){
   .description h2{
     font-size: 30px;
   }
-
+  
   .description p{
     margin-top: 2em;
     font-size: 20px;
   }
-
+  
   .sectionAbout h1{
     font-size: 40px;
   }
-
+  
   .description button{
     height: 50px;
     width: 250px;
@@ -292,14 +293,14 @@
   .introducao h3{
     font-size: 20px;
   }
-
+  
   .repositorio{
     width: 400px;
   }
 }
 
 @media (max-width:412px){
-    
+  
   .introducao h2{
     font-size: 50px;
     margin: 0.3em 0;
@@ -312,15 +313,20 @@
   .introducao h3{
     font-size: 20px;
   }
-
+  
   .repositorio{
     width: 300px;
   }
 }
 
+@media (max-width:362px){
+  .description h2{
+    font-size: 25px;
+  }
+}
 
 @media (max-width:350px){
-    
+  
   .introducao h2{
     font-size: 40px;
     margin: 0.3em 0;
@@ -333,11 +339,11 @@
   .introducao h3{
     font-size: 18px;
   }
-
+  
   .repositorio{
     width: 250px;
   }
-
+  
   .socialMedia svg{
     font-size: 50px;
   }
@@ -350,7 +356,7 @@
     align-items: end;
     margin-right:3em ;
   }
-
+  
   .socialMedia li{
     margin: 0;
     margin-bottom: 0.5em;

@@ -13,7 +13,7 @@ function App() {
               <h1>Portfolio</h1>
               <h2>João Augusto</h2>
               <h3>Desenvolvedor fullstack</h3>
-              <button className='repositorio'>Repositório</button>
+              <a href="https://github.com/joaoaugusto543/Portfolio"><button className='repositorio'>Repositório</button></a>
               <ul className='socialMedia'>
                 <li><a href="https://github.com/joaoaugusto543"><AiOutlineGithub/></a></li>
                 <li><a href="https://www.linkedin.com/in/joao-augusto-correia-lopes-6bb08b239/"><AiFillLinkedin/></a></li>
