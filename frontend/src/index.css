@@ -3,6 +3,16 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: black;
+  overflow-x: hidden;
+}
+
+img,form{
+  user-select: none;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 *{
@@ -12,4 +22,9 @@ body{
 
 .showScrool::-webkit-scrollbar{
   width: 0;
+}
+
+textarea{
+  font-family: 'Roboto', sans-serif;
+  resize: none;
 }
