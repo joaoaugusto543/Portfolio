@@ -134,9 +134,64 @@
     }
 }
 
+@media (max-width:872px){
+    .projectCard{
+        flex-direction: column;
+        max-height: 80%;
+        overflow-y: scroll;
+        padding: 3em;
+    }
+
+    .projectCard img{
+        width: 100%;
+    }
+
+    .textCard{
+        margin-bottom: 2em;
+    }
+
+    .links{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:600px){
+    .projectCard{
+        padding: 3em 1em;
+    }
+}
+
 @media(max-width:588px){
     .project{
         width: 300px;
+    }
+}
+
+@media(max-width:452px){
+
+    .projectCard h1{
+        font-size: 20px;
+    }
+
+    .close{
+        font-size: 20px;
+    }
+
+    .textCard{
+        font-size: 16px;
+    }
+
+    .informationsProjectCard a{
+        padding: 0.3em 1em;
+        font-size: 14px;
+    }
+
+    .informationsProjectCard svg{
+        font-size: 16px;
     }
 }
 
