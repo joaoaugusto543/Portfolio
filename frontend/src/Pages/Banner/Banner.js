@@ -5,7 +5,7 @@ function Banner() {
   return (
     <section className='banner'>
         <div className='introduction'>
-              <h1>Portfolio</h1>
+              <h1>Portfólio</h1>
               <h2>João Augusto</h2>
               <h3>Desenvolvedor fullstack</h3>
               <ul className='socialMedia'>

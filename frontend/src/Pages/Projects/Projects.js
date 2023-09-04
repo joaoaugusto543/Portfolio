@@ -11,6 +11,8 @@ function Projects() {
   useEffect(()=>{
     (async ()=>{
       const res=await projectsServices.show()
+
+      console.log(res)
     
       if(res.error){
         return
