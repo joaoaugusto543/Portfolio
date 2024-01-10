@@ -69,7 +69,7 @@ function Contact() {
           <h1>Contato</h1>
           {showMessageError && <p className='error'>Falha no envio</p>}
           {showMessageSucess && <p className='success'>Enviado com sucesso</p>}
-          <form onSubmit={handleSubmit}>
+          <form>
             <label>
               <span>Nome:</span>
               <input type='text' required placeholder='Digite seu nome' value={name} onChange={(e)=>setName(e.target.value)}/>
@@ -82,7 +82,7 @@ function Contact() {
               <span>Mensagem:</span>
               <textarea value={message} placeholder='Digite sua mensagem' onChange={(e)=>setMessage(e.target.value)}/>
             </label>
-            <input type='submit' value='Enviar' />
+            {<input type='submit' onClick={handleSubmit} value='Enviar' /> && <input type='submit' onClick={()=>{}} value='Aguarde...' />}
           </form>
         </div>
       </section>
