@@ -10,6 +10,7 @@ function Contact() {
   const [message,setMessage]=useState('')
   const [showMessageError,setShowMessageError]=useState(false)
   const [showMessageSucess,setShowMessageSucess]=useState(false)
+  const [loader,setLoader]=useState(false)
 
   useEffect(()=>{
     if(showMessageError){
@@ -26,6 +27,9 @@ function Contact() {
   },[showMessageError,showMessageSucess])
 
   async function handleSubmit(e){
+
+    setLoader(true)
+
     e.preventDefault()
 
     const contact={
@@ -40,6 +44,8 @@ function Contact() {
         setShowMessageError(true)
         return
     }
+
+    setLoader(false)
 
     setShowMessageSucess(true)
     setEmail('')
