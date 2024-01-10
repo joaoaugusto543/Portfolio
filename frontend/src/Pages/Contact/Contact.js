@@ -82,7 +82,7 @@ function Contact() {
               <span>Mensagem:</span>
               <textarea value={message} placeholder='Digite sua mensagem' onChange={(e)=>setMessage(e.target.value)}/>
             </label>
-            {<input type='submit' onClick={handleSubmit} value='Enviar' /> && <input type='submit' onClick={()=>{}} value='Aguarde...' />}
+            {!loader ? <input type='submit' onClick={handleSubmit} value='Enviar' /> : <input type='submit' onClick={()=>{}} value='Aguarde...' />}
           </form>
         </div>
       </section>
