@@ -1,6 +1,6 @@
 import './About.css'
 import Perfil from '../../image/perfil.jpg'
-import Curriculum from '../../docs/curriculum.docx'
+import Curriculum from '../../docs/curriculum.pdf'
 
 function About() {
   return (
