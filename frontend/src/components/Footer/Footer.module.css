@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 2em;
+}
+
+.footer p{
+    font-family: 'Roboto', sans-serif;
+    color: #3a9efff0;
+    font-size: 20px;
+}
+
+@media (max-width:928px){
+    .footer p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:600px){
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:354px){
+    .footer p{
+        font-size: 12px;
+    }
+}

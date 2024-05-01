@@ -1,0 +1,29 @@
+.sectionProjects{
+    padding: 2em 0;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sectionProjects h1{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    color:#3a9efff0 ;
+    margin-bottom: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width:550px){
+    
+    .sectionProjects h1{
+        font-size: 30px;
+    }
+
+}
+
+
+
